@@ -8,12 +8,14 @@ import { Address } from "@/types";
 import { StakedNftCard } from "@/components/ui/cards/StakedNftCard";
 import { CircularProgress } from "@mui/material";
 import sortBy from "lodash/fp/sortBy";
+import { useRouter } from "next/navigation";
 
 function StakedPanel() {
   const { stakedNfts, isLoading } = useStakedNfts();
   const grouped = groupBy("collection", stakedNfts);
   const { toggleNft, selectedNfts, checkIsSelected, unstakeNfts } =
     useUnstakeNft();
+  const router = useRouter();
 
   if (isLoading) {
     return (
@@ -25,9 +27,14 @@ function StakedPanel() {
   }
   if (stakedNfts.length === 0) {
     return (
-      <div className="text-center text-2xl">
-        You haven&rsquo;t staked any NFTs yet!
-      </div>
+      <>
+        <div className="text-center text-2xl">
+          You haven&rsquo;t staked any NFTs yet!
+        </div>
+        <div className="text-center text-slate-500">
+          (You may need to refresh the page a few times)
+        </div>
+      </>
     );
   }
 

@@ -24,7 +24,7 @@ export function StakedNftCard(props: NftCardInterface) {
         "text-white flex flex-col space-between text-center h-full"
       )}
     >
-      <div className="text-center w-full px-8">
+      <div className="text-center w-full px-9">
         <Image
           className={cx(styles.thumbnail, "h-32 bg-white rounded-lg")}
           src={nft.media[0]?.thumbnail || nft.media[0]?.gateway}

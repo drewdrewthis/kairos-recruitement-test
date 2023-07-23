@@ -166,7 +166,7 @@ Deployer: 0x15B986454e0F4C9B3E97255E361f2071C0eB7C57
 Deployed to: 0x8bA04bb38E5B4fD9dfd75991dCd91d8a8b607a54
 Transaction hash: 0xa24a6f44d301ad700b0fe61d7b0dec40db9f6226c48ce4218a05987ad748d149
 Current timestamp: 2023-07-23 02:28:40
-Deploying test tokens to https://eth-goerli.g.alchemy.com/v2/MkcJYIw9wbnGhO1LwGIo9aCQNxBN3cCX
+Deploying test tokens to https://eth-goerli.g.alchemy.com/v2/
 No files changed, compilation skipped
 Deployer: 0xc310d32Aa5B9e1896321753BD9c7Ac630f1Cdfeb
 Deployed to: 0x58B449674A489360C0e32D8A0C4625190c4E0097
@@ -176,13 +176,13 @@ Deployer: 0xc310d32Aa5B9e1896321753BD9c7Ac630f1Cdfeb
 Deployed to: 0xE4fa7406066e72e1B662D7E9F82745eC727062ae
 Transaction hash: 0xb1dc4bfee3753540690dd949955e501fb4600c36191c6c30eb94d729769a28f0
 No files changed, compilation skipped
-Deploying staking contract to https://eth-goerli.g.alchemy.com/v2/MkcJYIw9wbnGhO1LwGIo9aCQNxBN3cCX
+Deploying staking contract to https://eth-goerli.g.alchemy.com/v2/
 No files changed, compilation skipped
 Deployer: 0xc310d32Aa5B9e1896321753BD9c7Ac630f1Cdfeb
 Deployed to: 0xa38c5eCf3602fCd9072E706A0FD2232B624204cb
 Transaction hash: 0x4243c2185393404b386a45c8317f82aafafd2dc34dd3667272ccdddb4872072d
 Current timestamp: 2023-07-23 02:31:11
-Deploying test tokens to https://eth-goerli.g.alchemy.com/v2/MkcJYIw9wbnGhO1LwGIo9aCQNxBN3cCX
+Deploying test tokens to https://eth-goerli.g.alchemy.com/v2/
 No files changed, compilation skipped
 Deployer: 0xc310d32Aa5B9e1896321753BD9c7Ac630f1Cdfeb
 Deployed to: 0x5b8c30F21d95C2459aE1aDaC15d92D7efBAaFf22

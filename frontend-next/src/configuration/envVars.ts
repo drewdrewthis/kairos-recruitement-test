@@ -13,6 +13,4 @@ export const envVars = {
   NEXT_PUBLIC_WS_RPC_URL: process.env.NEXT_PUBLIC_WS_RPC_URL,
 };
 
-console.log(envVars);
-
 export type EnvVar = keyof typeof envVars;

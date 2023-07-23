@@ -29,7 +29,7 @@ export $(grep -v '^#' $ENV_FILE | xargs)
 timestamp=$(date +"%Y-%m-%d %H:%M:%S")
 
 {
-echo "Deploying staking contract to $RPC_URL"
+echo "Deploying staking contract to $NETWORK at $timestamp"
 
 # Use double quotes for variable expansion to ensure word splitting and globbing
 forge create \

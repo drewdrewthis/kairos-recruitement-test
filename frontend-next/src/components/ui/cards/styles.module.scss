@@ -1,0 +1,52 @@
+.content {
+  min-width: 5rem;
+
+  > * {
+    margin-bottom: 1rem;
+  }
+}
+
+.tokenId {
+  font-weight: 900;
+  width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-size: 1.2rem;
+}
+
+.thumbnail {
+  width: 100%;
+  object-fit: contain;
+}
+
+.remove-button {
+  // height: 3rem;
+  width: 100%;
+  background: rgb(68, 68, 68);
+  margin-top: auto;
+  cursor: pointer;
+  transition: background 0.2s ease-out;
+  color: white;
+
+  &:hover,
+  &.active {
+    background: rgb(215, 125, 7);
+  }
+}
+
+.image-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.collection-logo {
+  // position: absolute;
+  // bottom: 20px;
+  // right: 0;
+  // object-fit: contain;
+}
+
+.colorize {
+  filter: hue-rotate(59.5deg) saturate(20.8);
+  transform: rotateY(180deg);
+}

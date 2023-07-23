@@ -1,0 +1,32 @@
+{
+  "extends": [
+    "next/core-web-vitals",
+    "plugin:storybook/recommended",
+    "plugin:lodash-fp/recommended",
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "rules": {
+    "unused-imports/no-unused-imports": "error",
+    "no-unused-private-class-members": "error",
+    "react/no-unescaped-entities": "warn",
+    "@typescript-eslint/no-explicit-any": "warn",
+    "@typescript-eslint/no-unused-vars": [
+      "warn",
+      {
+        "argsIgnorePattern": "^_",
+        "varsIgnorePattern": "^_",
+        "ignoreRestSiblings": true
+      }
+    ],
+    "no-unused-expressions": "warn",
+    "no-unused-labels": "warn"
+  },
+  "plugins": [
+    "unused-imports",
+    "@emotion",
+    "@typescript-eslint"
+  ],
+  "root": true
+}

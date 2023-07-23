@@ -1,0 +1,68 @@
+{
+  "0xb47e3cd837dDF8e4c57F05d70Ab865de6e193BBB": {
+    "address": "0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb",
+    "contractMetadata": {
+      "name": "CRYPTOPUNKS",
+      "symbol": "Ͼ",
+      "totalSupply": "10000",
+      "tokenType": "ERC721",
+      "contractDeployer": "0xc352b534e8b987e036a93539fd6897f53488e56a",
+      "deployedBlockNumber": 3914495,
+      "openSea": {
+        "floorPrice": 0,
+        "collectionName": "CryptoPunks",
+        "safelistRequestStatus": "verified",
+        "imageUrl": "https://i.seadn.io/gae/BdxvLseXcfl57BiuQcQYdJ64v-aI8din7WPk0Pgo3qQFhAUH-B6i-dCqqc_mCkRIzULmwzwecnohLhrcH8A9mpWIZqA7ygc52Sr81hE?w=500&auto=format",
+        "description": "CryptoPunks launched as a fixed set of 10,000 items in mid-2017 and became one of the inspirations for the ERC-721 standard. They have been featured in places like The New York Times, Christie’s of London, Art|Basel Miami, and The PBS NewsHour.",
+        "externalUrl": "https://cryptopunks.app/",
+        "twitterUsername": "cryptopunksnfts",
+        "discordUrl": "https://discord.gg/tQp4pSE",
+        "lastIngestedAt": "2023-07-21T00:47:36.000Z"
+      }
+    }
+  },
+  "0xBC4CA0EdA7647A8aB7C2061c2E118A18a936f13D": {
+    "address": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+    "contractMetadata": {
+      "name": "BoredApeYachtClub",
+      "symbol": "BAYC",
+      "totalSupply": "10000",
+      "tokenType": "ERC721",
+      "contractDeployer": "0xaba7161a7fb69c88e16ed9f455ce62b791ee4d03",
+      "deployedBlockNumber": 12287507,
+      "openSea": {
+        "floorPrice": 33.92,
+        "collectionName": "Bored Ape Yacht Club",
+        "safelistRequestStatus": "verified",
+        "imageUrl": "https://i.seadn.io/gae/Ju9CkWtV-1Okvf45wo8UctR-M9He2PjILP0oOvxE89AyiPPGtrR3gysu1Zgy0hjd2xKIgjJJtWIc0ybj4Vd7wv8t3pxDGHoJBzDB?w=500&auto=format",
+        "description": "The Bored Ape Yacht Club is a collection of 10,000 unique Bored Ape NFTs— unique digital collectibles living on the Ethereum blockchain. Your Bored Ape doubles as your Yacht Club membership card, and grants access to members-only benefits, the first of which is access to THE BATHROOM, a collaborative graffiti board. Future areas and perks can be unlocked by the community through roadmap activation. Visit www.BoredApeYachtClub.com for more details.",
+        "externalUrl": "http://www.boredapeyachtclub.com/",
+        "twitterUsername": "BoredApeYC",
+        "discordUrl": "https://discord.gg/3P5K3dzgdB",
+        "lastIngestedAt": "2023-07-21T02:53:34.000Z"
+      }
+    }
+  },
+  "0x231d3559aa848Bf10366fB9868590F01d34bF240": {
+    "address": "0x231d3559aa848bf10366fb9868590f01d34bf240",
+    "contractMetadata": {
+      "name": "Valhalla",
+      "symbol": "VAL",
+      "totalSupply": "9000",
+      "tokenType": "ERC721",
+      "contractDeployer": "0xb923a1cdf0fc1d25c25168f882d09a9ecaf839b3",
+      "deployedBlockNumber": 16027658,
+      "openSea": {
+        "floorPrice": 0.302,
+        "collectionName": "Valhalla",
+        "safelistRequestStatus": "verified",
+        "imageUrl": "https://i.seadn.io/gcs/files/d7936464d55988206c1b16c6929856f6.jpg?w=500&auto=format",
+        "description": "Valhalla is a crypto native brand for gamers. \n\nValhalla represents more than a collection of digital avatars. It represents decades of gaming culture: the clutch plays, the ELO grind, the OT wins. Visit https://joinvalhalla.com/ for more details.",
+        "externalUrl": "https://joinvalhalla.com/",
+        "twitterUsername": "valhalla",
+        "discordUrl": "https://discord.gg/joinvalhalla",
+        "lastIngestedAt": "2023-07-18T00:13:39.000Z"
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+@tailwind base;
+/* Leave this commented out until needed */
+/* @tailwind components; */
+@tailwind utilities;
+
+body {
+  // background-color: #f8f8f8;
+  // color: white;
+}
+
+/* Missing overrides from MUI baseline */
+button {
+  background: transparent;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  color: lightblue;
+}
+
+// https://tailwindcss.com/docs/preflight#border-styles-are-reset-globally
+*,
+::before,
+::after {
+  border-width: 0;
+  border-style: solid;
+  border-color: theme("borderColor.DEFAULT", currentColor);
+}
+
+h1 {
+  font-family: var(--font-righteous), sans-serif;
+}

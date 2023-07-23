@@ -1,0 +1,92 @@
+{
+  "nftsWithProofs": [
+    {
+      "network": "ganache-test",
+      "contractAddress": "0xf129bbf2dc2ade88005fd3f6e7ad62eb238a3a98",
+      "tokenId": 1,
+      "merkleProof": "[\"0x16885570a36b88f5fc65832696dc8c3bd64ad97e1547aca601d00eddd2d83658\",\"0xa9de05b9ecd5d6335f8e1b724e9d25021ed27fc6d31e3cb9f3ed65cecfeb485e\",\"0xf734d5160df6cc06c8af1f7419fb9a1c0510cfdb388577b67fa306dc36b2d48d\",\"0x9c6669041d9df9b859b63d7b355b565e4fc499645c3b0555724f5414a46e1db9\"]"
+    },
+    {
+      "network": "ganache-test",
+      "contractAddress": "0xf129bbf2dc2ade88005fd3f6e7ad62eb238a3a98",
+      "tokenId": 3,
+      "merkleProof": "[\"0x8bd7177d0eb65a0f992facaa96e64682e273ce3af9db132dcfde935f580c2075\",\"0xa9de05b9ecd5d6335f8e1b724e9d25021ed27fc6d31e3cb9f3ed65cecfeb485e\",\"0xf734d5160df6cc06c8af1f7419fb9a1c0510cfdb388577b67fa306dc36b2d48d\",\"0x9c6669041d9df9b859b63d7b355b565e4fc499645c3b0555724f5414a46e1db9\"]"
+    },
+    {
+      "network": "ganache-test",
+      "contractAddress": "0xf129bbf2dc2ade88005fd3f6e7ad62eb238a3a98",
+      "tokenId": 5,
+      "merkleProof": "[\"0x59d4ab6bfc7cb2890a2212b71e2f71b17637e80c1f3072faf8ee6d64ed2e3e1d\",\"0x2ae71a3aea8177afd774fe96f4c40f88d0ab3e994cd03b2dff646e6a459f56c4\",\"0xf734d5160df6cc06c8af1f7419fb9a1c0510cfdb388577b67fa306dc36b2d48d\",\"0x9c6669041d9df9b859b63d7b355b565e4fc499645c3b0555724f5414a46e1db9\"]"
+    },
+    {
+      "network": "ganache-test",
+      "contractAddress": "0xf129bbf2dc2ade88005fd3f6e7ad62eb238a3a98",
+      "tokenId": 10,
+      "merkleProof": "[\"0x0f765fcb244819cacfa6d685c51af43eece9e086e1155b640332e11d443ddf40\",\"0x2ae71a3aea8177afd774fe96f4c40f88d0ab3e994cd03b2dff646e6a459f56c4\",\"0xf734d5160df6cc06c8af1f7419fb9a1c0510cfdb388577b67fa306dc36b2d48d\",\"0x9c6669041d9df9b859b63d7b355b565e4fc499645c3b0555724f5414a46e1db9\"]"
+    },
+    {
+      "network": "ganache-test",
+      "contractAddress": "0xf129bbf2dc2ade88005fd3f6e7ad62eb238a3a98",
+      "tokenId": 11,
+      "merkleProof": "[\"0x0b65ac8c83a29d116718748b5fd7d3c223e3744638f3cf865557f0492f1a1d60\",\"0x1a3817e813ff0d97692ad6b38ea84207e983b049d343c01eb687375608ad592d\",\"0x703e7a155fdb6acaa4dcda831381619b7fb03ff085ca44091a7368566b324d6a\",\"0x9c6669041d9df9b859b63d7b355b565e4fc499645c3b0555724f5414a46e1db9\"]"
+    },
+    {
+      "network": "ganache-test",
+      "contractAddress": "0x46fa692953263f1e4e9d78d64fe7cc7a60456194",
+      "tokenId": 2,
+      "merkleProof": "[\"0x4e3a4613cf8c32886f2f5754ee3dc8f651a802567fd6e4ad2aaa3640bd4c57f3\",\"0x1a3817e813ff0d97692ad6b38ea84207e983b049d343c01eb687375608ad592d\",\"0x703e7a155fdb6acaa4dcda831381619b7fb03ff085ca44091a7368566b324d6a\",\"0x9c6669041d9df9b859b63d7b355b565e4fc499645c3b0555724f5414a46e1db9\"]"
+    },
+    {
+      "network": "ganache-test",
+      "contractAddress": "0x46fa692953263f1e4e9d78d64fe7cc7a60456194",
+      "tokenId": 4,
+      "merkleProof": "[\"0x4e5a9b6cd3850e15e6835ab45f46466a510d3dbc614255d274971d76c57d7800\",\"0x74d19cccbd2b0a844bdfc8aa3d2dbe27f4ec9d6ac54b7804b549824167117e85\",\"0x703e7a155fdb6acaa4dcda831381619b7fb03ff085ca44091a7368566b324d6a\",\"0x9c6669041d9df9b859b63d7b355b565e4fc499645c3b0555724f5414a46e1db9\"]"
+    },
+    {
+      "network": "ganache-test",
+      "contractAddress": "0x46fa692953263f1e4e9d78d64fe7cc7a60456194",
+      "tokenId": 6,
+      "merkleProof": "[\"0xa938837972f14dc5c7f62daa5b59943ade1c89b8d8bd5dc5932da19e8f2f3e10\",\"0x74d19cccbd2b0a844bdfc8aa3d2dbe27f4ec9d6ac54b7804b549824167117e85\",\"0x703e7a155fdb6acaa4dcda831381619b7fb03ff085ca44091a7368566b324d6a\",\"0x9c6669041d9df9b859b63d7b355b565e4fc499645c3b0555724f5414a46e1db9\"]"
+    },
+    {
+      "network": "ganache-test",
+      "contractAddress": "0x46fa692953263f1e4e9d78d64fe7cc7a60456194",
+      "tokenId": 18,
+      "merkleProof": "[\"0xb2f54ac57efdcea8cc365631fa283371ff5a0a9962ab854902734174a99141fd\",\"0xa14bcbcc2451e19a158d7f450508fcf32034961ea1161d48b716cc0f37f0d4c4\",\"0xb7ba6a2ebd69c5e6d2aa8ab1ade19c2801fec0488083666b08ee03b867ed4b44\",\"0xfb3bdab4144728106b1f5bf28b0fa4320df7cff674cf77d62b84bddf62ca4091\"]"
+    },
+    {
+      "network": "ganache-test",
+      "contractAddress": "0x46fa692953263f1e4e9d78d64fe7cc7a60456194",
+      "tokenId": 19,
+      "merkleProof": "[\"0x47fff3fa421b56c5d4c07b7160f97edf09bf057079224919b037bc478fee4da9\",\"0xa14bcbcc2451e19a158d7f450508fcf32034961ea1161d48b716cc0f37f0d4c4\",\"0xb7ba6a2ebd69c5e6d2aa8ab1ade19c2801fec0488083666b08ee03b867ed4b44\",\"0xfb3bdab4144728106b1f5bf28b0fa4320df7cff674cf77d62b84bddf62ca4091\"]"
+    },
+    {
+      "network": "ganache-test",
+      "contractAddress": "0x3d950d4228bb6b070f9336713dc3833f35895186",
+      "tokenId": 3,
+      "merkleProof": "[\"0xc8f337b6f4df707091eb9a419bf3e2771db85aa158c9e3937cfd004cd7b8ad32\",\"0xccac50ee91333025b531b48ff5419ba1dc388cbcb7c0b2fedbd11581c73cbbb7\",\"0xb7ba6a2ebd69c5e6d2aa8ab1ade19c2801fec0488083666b08ee03b867ed4b44\",\"0xfb3bdab4144728106b1f5bf28b0fa4320df7cff674cf77d62b84bddf62ca4091\"]"
+    },
+    {
+      "network": "ganache-test",
+      "contractAddress": "0x3d950d4228bb6b070f9336713dc3833f35895186",
+      "tokenId": 7,
+      "merkleProof": "[\"0xbd842255b27178e76cae34b12b252e8bc7948287f679ed82efa815de5bebf22d\",\"0xccac50ee91333025b531b48ff5419ba1dc388cbcb7c0b2fedbd11581c73cbbb7\",\"0xb7ba6a2ebd69c5e6d2aa8ab1ade19c2801fec0488083666b08ee03b867ed4b44\",\"0xfb3bdab4144728106b1f5bf28b0fa4320df7cff674cf77d62b84bddf62ca4091\"]"
+    },
+    {
+      "network": "ganache-test",
+      "contractAddress": "0x3d950d4228bb6b070f9336713dc3833f35895186",
+      "tokenId": 8,
+      "merkleProof": "[\"0xe05fb8da7c2ddfa582162c56428d6f3ef54bf44d615048cbad1c80e7c0390fa2\",\"0x4730861665434377421b014f55b945adc88170df46d12cd25fa82ca682a6406f\",\"0xfb3bdab4144728106b1f5bf28b0fa4320df7cff674cf77d62b84bddf62ca4091\"]"
+    },
+    {
+      "network": "ganache-test",
+      "contractAddress": "0x3d950d4228bb6b070f9336713dc3833f35895186",
+      "tokenId": 9,
+      "merkleProof": "[\"0xfae0d8a8b35ed3bacf36220ef6256b8d69ae844053f045863cc33fa199c4ab46\",\"0x4730861665434377421b014f55b945adc88170df46d12cd25fa82ca682a6406f\",\"0xfb3bdab4144728106b1f5bf28b0fa4320df7cff674cf77d62b84bddf62ca4091\"]"
+    }
+  ],
+  "merkleRoot": "0xd906f645d7889b4088edda06c27639b796bb3224b54f42789af983e191ce9fd7",
+  "signedMerkleRoot": "0x89bc0970ec01f007e26a81b826d7a441a0fab204c672437c7398fba3f1e3eec23786d74c7dfb1cf5883ce88680f56ea152f77e99907d872e6e6cf0d3f18311481c",
+  "timestamp": 1690062931719,
+  "date": "2023-07-22T21:55:31.719Z"
+}

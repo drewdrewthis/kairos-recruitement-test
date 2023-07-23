@@ -1,6 +1,6 @@
 import nftStakingContract from "@/__generated/contracts/NftStaking.json";
 import { useEffect, useState } from "react";
-import { addresses } from "../../../configuration/addresses";
+import { addresses } from "../../../configuration/contractDeployments";
 import { Address } from "viem";
 import { useContractMethod } from "../useContractMethod";
 import { fromRpcSig } from "ethereumjs-util";

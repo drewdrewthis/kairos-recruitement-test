@@ -7,7 +7,7 @@ import { promisify } from "util";
 import { NftWithProof } from "../src/types";
 import { ethers } from "ethers";
 import { getEnv } from "../src/lib/utils/getEnv";
-import { addresses } from "../src/configuration/addresses";
+import { addresses } from "../src/configuration/contractDeployments";
 import stakingContract from "@/__generated/contracts/NftStaking.json";
 
 // Use promisify to convert fs.writeFile into a promise-based function

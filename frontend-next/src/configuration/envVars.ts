@@ -11,6 +11,7 @@ export const envVars = {
   NEXT_PUBLIC_NETWORK: process.env.NEXT_PUBLIC_NETWORK,
   NEXT_PUBLIC_RPC_URL: process.env.NEXT_PUBLIC_RPC_URL,
   NEXT_PUBLIC_WS_RPC_URL: process.env.NEXT_PUBLIC_WS_RPC_URL,
+  CONTRACT_CREATION_BLOCK: process.env.CONTRACT_CREATION_BLOCK,
 };
 
 export type EnvVar = keyof typeof envVars;

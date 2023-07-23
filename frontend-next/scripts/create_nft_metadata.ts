@@ -8,7 +8,10 @@ import https from "https";
 import fs from "fs";
 import { promisify } from "util";
 import { IncomingMessage } from "http";
-import { spoofedAddresses, addresses } from "../src/configuration/addresses";
+import {
+  spoofedAddresses,
+  addresses,
+} from "../src/configuration/contractDeployments";
 
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 require("dotenv").config({

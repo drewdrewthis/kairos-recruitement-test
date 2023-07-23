@@ -1,10 +1,14 @@
 import { Service } from "typedi";
-import { addresses } from "../../../configuration/addresses";
+import {
+  CONTRACT_DEPLOYMENTS,
+  addresses,
+} from "../../../configuration/contractDeployments";
 import stakingContract from "@/__generated/contracts/NftStaking.json";
 import { Address } from "viem";
 import { getPublicClient } from "../../clients/viem";
 import { NftService } from "./nft.service";
 import orderBy from "lodash/fp/orderBy";
+import { getEnv } from "../../utils/getEnv";
 
 type StakingLog = {
   address: Address;
@@ -62,6 +66,9 @@ export class StakingContractService {
     }
 
     const client = getPublicClient();
+    const network = getEnv("NEXT_PUBLIC_NETWORK") as "goerli" | "ganache";
+    const fromBlock =
+      CONTRACT_DEPLOYMENTS.constants[network].NftStaking.deployedBlock;
     const filter = await client.createEventFilter({
       event: {
         ...abiItem,
@@ -69,7 +76,7 @@ export class StakingContractService {
         // eslint-disable-next-line @typescript-eslint/no-explicit-any
       } as any,
       address: addresses.STAKING_CONTRACT,
-      fromBlock: BigInt(0),
+      fromBlock: BigInt(fromBlock),
       args: {
         staker: address,
       },

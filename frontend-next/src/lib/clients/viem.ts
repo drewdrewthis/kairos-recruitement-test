@@ -34,6 +34,8 @@ function getChain() {
 }
 
 function checkUrlIsCorrect() {
+  if (testChain === "ganache") return;
+
   const url = getEnv("NEXT_PUBLIC_RPC_URL");
   // Check url contains the chain name
   if (!url.includes(testChain)) {

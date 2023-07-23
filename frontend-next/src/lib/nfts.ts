@@ -1,7 +1,7 @@
 import { Address } from "@/types";
 import { getPublicClient, getWalletClient } from "./clients/viem";
 import nftContract from "@/__generated/contracts/StakableNFT.json";
-import { addresses } from "../configuration/addresses";
+import { addresses } from "../configuration/contractDeployments";
 import { enqueueSnackbar } from "notistack";
 
 export async function fetchNfts(walletAddress: Address) {

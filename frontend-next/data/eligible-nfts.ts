@@ -1,4 +1,4 @@
-import { addresses } from "../src/configuration/addresses";
+import { addresses } from "../src/configuration/contractDeployments";
 
 const eligibleNfts = {
   [addresses.STAKABLE_NFT_ADDRESS1]: [1, 3, 5, 10, 11],

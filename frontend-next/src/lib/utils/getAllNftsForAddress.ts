@@ -4,7 +4,7 @@
  */
 import { Address } from "viem";
 import { abis } from "../../configuration/abis";
-import { addresses } from "../../configuration/addresses";
+import { addresses } from "../../configuration/contractDeployments";
 import { Contract, ethers } from "ethers";
 import { getEnv } from "./getEnv";
 import { logger } from "../logging";

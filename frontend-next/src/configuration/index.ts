@@ -1,5 +1,5 @@
 import constants from "./constants";
-import * as addresses from "./addresses";
+import * as addresses from "./contractDeployments";
 import * as abis from "./abis";
 import * as contracts from "./contracts";
 

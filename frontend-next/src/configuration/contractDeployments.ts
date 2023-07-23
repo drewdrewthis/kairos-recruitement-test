@@ -1,6 +1,24 @@
 import { Address } from "viem";
 import { getEnv } from "@/lib/utils/getEnv";
 
+// TODO: All deployed contracts should be in this dictionary instead
+export const CONTRACT_DEPLOYMENTS = {
+  constants: {
+    goerli: {
+      NftStaking: {
+        address: "0xa38c5eCf3602fCd9072E706A0FD2232B624204cb" as Address,
+        deployedBlock: 9391180,
+      },
+    },
+    ganache: {
+      NftStaking: {
+        address: "0x00Ff071eEe1Bcae721f60dFDA570b5B8B42E1ab8" as Address,
+        deployedBlock: 0,
+      },
+    },
+  },
+};
+
 const allAddresses = {
   goerli: {
     STAKABLE_NFT_ADDRESS1:
@@ -9,7 +27,7 @@ const allAddresses = {
       "0xE4fa7406066e72e1B662D7E9F82745eC727062ae".toLowerCase() as Address,
     STAKABLE_NFT_ADDRESS3:
       "0x5b8c30F21d95C2459aE1aDaC15d92D7efBAaFf22".toLowerCase() as Address,
-    STAKING_CONTRACT: "0xa38c5eCf3602fCd9072E706A0FD2232B624204cb",
+    STAKING_CONTRACT: CONTRACT_DEPLOYMENTS.constants.goerli.NftStaking.address,
   } as Record<string, Address>,
 
   ganache: {
@@ -19,8 +37,7 @@ const allAddresses = {
       "0x46Fa692953263F1E4e9D78d64fe7cC7a60456194".toLowerCase() as Address,
     STAKABLE_NFT_ADDRESS3:
       "0x3D950D4228Bb6b070F9336713dc3833F35895186".toLowerCase() as Address,
-    STAKING_CONTRACT:
-      "0x00Ff071eEe1Bcae721f60dFDA570b5B8B42E1ab8".toLowerCase() as Address,
+    STAKING_CONTRACT: CONTRACT_DEPLOYMENTS.constants.ganache.NftStaking.address,
   },
 };
 

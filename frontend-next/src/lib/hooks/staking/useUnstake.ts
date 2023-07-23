@@ -1,6 +1,6 @@
 import _contract from "@/__generated/contracts/NftStaking.json";
 import { useState } from "react";
-import { addresses } from "../../../configuration/addresses";
+import { addresses } from "../../../configuration/contractDeployments";
 import { Address } from "viem";
 import { useContractMethod } from "../useContractMethod";
 import { useStakedNfts } from "../useStakedNfts";

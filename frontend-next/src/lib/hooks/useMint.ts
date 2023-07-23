@@ -1,7 +1,7 @@
 import { type Address, useAccount } from "wagmi";
 import _contract from "@/__generated/contracts/StakableNFT.json";
 import { useState } from "react";
-import { addresses } from "../../configuration/addresses";
+import { addresses } from "../../configuration/contractDeployments";
 import { useNfts } from "./useNfts";
 import { useContractMethod } from "./useContractMethod";
 

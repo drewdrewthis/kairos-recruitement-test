@@ -1,5 +1,5 @@
 import { abis } from "./abis";
-import { addresses } from "./addresses";
+import { addresses } from "./contractDeployments";
 
 export const contracts = {
   stakableNft1: {

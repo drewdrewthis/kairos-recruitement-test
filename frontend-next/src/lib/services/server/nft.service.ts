@@ -1,7 +1,7 @@
 import { Service } from "typedi";
 import { getAllNftsForAddress } from "@/lib/utils/getAllNftsForAddress";
 import { Address } from "viem";
-import { spoofedAddresses } from "@/configuration/addresses";
+import { spoofedAddresses } from "@/src/configuration/contractDeployments";
 import fakeContractMeta from "@/data/contract-metadata.json";
 import { NftWithMetadata, RawNft, RawNftContractMetadata } from "@/types";
 import { getEnv } from "@/lib/utils/getEnv";

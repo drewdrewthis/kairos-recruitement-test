@@ -1,7 +1,7 @@
 import { type Address, useAccount, useContractRead } from "wagmi";
 import nftContract from "@/__generated/contracts/StakableNFT.json";
 import { useContractMethod } from "./useContractMethod";
-import { addresses } from "@/configuration/addresses";
+import { addresses } from "@/src/configuration/contractDeployments";
 
 /**
  * A custom hook that allow us to check if the user has approved
